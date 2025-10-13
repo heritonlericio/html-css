@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário 6</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p><label for="icor">Cor Favorita:</label>
+        <input type="color" name="cor" id="icor" value="#000000"></p>
+        <p><label for="range">Intensidade da Cor:</label>
+        <input type="range" name="range" id="range" min="0" max="255" value="128"></p>
+        <p><label for="file">Arquivo:</label>
+        <input type="file" name="file" id="file"></p>
+
+
+
+
+
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        <input type="button" value="Voltar" onclick="history.back()"></p>
+    </form>
+    
+</body>
+</html>
