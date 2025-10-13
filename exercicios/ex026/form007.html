@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Formulário de Exemplo</h1>
-    <form action="cadastro.php" method="get" autocomplete="on"></form>
+    <form action="cadastro.php" method="post" autocomplete="on"></form>
 
     <p>
         <label for="estado">Estado</label>
@@ -70,7 +70,14 @@
     
     
 
+   
+
     <p>
+        <label for="imsg">Mensagem</label>
+        <textarea id="imsg" name="imsg" rows="4" cols="50" required></textarea>
+    </p>
+
+     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
     </p>
