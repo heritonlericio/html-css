@@ -16,3 +16,9 @@ html {
 menu {
     display: none;
 }
+
+article::after {
+    content: " - Página impressa em " attr(data-print-date);
+    font-size: 0.8em;
+    color: gray;
+}
